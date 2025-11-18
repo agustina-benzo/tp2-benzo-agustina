@@ -1,0 +1,406 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+}
+nav{
+    position: sticky;
+    top: 0;
+    .logo{
+        width: 10%;
+        margin-top: 0;
+        padding: 1rem;
+        display: inline-block;
+        background-color: transparent;
+        img{
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+    a{
+        padding: 1rem; 
+        margin: 10px 30px;
+        margin-bottom: 4%;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        background-color: #ffca85;
+        border-radius: 10px 10px;
+        text-decoration: none;
+        font-family: 'titulo';
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    a:hover{
+        color: rgb(255, 202, 133);
+        background-color: rgb(0, 0, 0);
+        border: solid;
+    }
+.logo{
+    
+}
+    
+}
+.the-walking-dead{
+    background-image: url(./imagenes/fondo-detallado-grunge.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 25px #000000;
+}
+.sobre-la-serie{
+    background-image: url(./imagenes/fondo-sobre-la-serie.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 25px #000000;
+}
+.elenco-y-personajes{
+    background-image: url(./imagenes/fondo-elenco-y-personajes.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 25px #000000;
+}
+.temporadas-y-episodios{
+    background-image: url(./imagenes/fondo-temporadas-y-episodios.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 25px #000000;
+}
+.eventos-y-curiosidades{
+    background-image: url(./imagenes/fondo-eventos-y-curiosidades.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 25px #000000;
+}
+h2{
+    color:rgb(0, 0, 0);
+     font-family: 'subtitulos';
+     background-color: #ffca85;
+     margin-top: 3%;
+     margin-bottom: 3%;
+     }
+h3{
+     color:rgb(255, 202, 133);
+     font-family: 'subtitulos';
+     font-size: 16px
+}
+h4{
+     color:rgb(255, 202, 133);
+     font-family: 'subtitulos';
+     font-size: 14px
+}
+h5{
+     color:rgb(255, 202, 133);
+     font-family: 'subtitulos';
+     font-size: 12px
+}
+a{
+    margin-inline: 3%
+}
+p{
+    font-family: 'parrafos';
+    margin: 0;
+    margin-bottom: 1.5%;
+}
+img{
+    margin: 3%;
+    width: 45%;
+}
+.width{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    img{
+        width: 60%;
+    }
+}
+.personajes{
+    img{
+        width: 12%;
+    }
+    figure{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+    div{
+        margin: 20px 0 10px 0;
+        text-align: left;
+        width: 100%;
+    }
+    h3{
+        text-align: left;
+        margin-left: 7%;
+        margin-bottom: 0;
+    }
+}
+.creadores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: 2%;
+    justify-content: center;
+    img{
+        width: 30%;
+    }
+    div{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 40%;
+    }
+    .cuatro-columnas{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin-top: 3%;
+    }
+}
+.temporadas{
+    img{
+        width: 40%;
+    }
+    figure{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+    div{
+        margin: 20px 0 10px 0;
+        text-align: left;
+        width: 100%;
+    }
+    h3{
+        text-align: left;
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+}
+
+@font-face {
+    font-family:'titulo';
+    src: url(./shredded/shredded.ttf);
+}
+@font-face {
+    font-family: 'parrafos';
+    src: url(./Stack_Sans_Notch/StackSansNotch-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:'subtitulos';
+    src: url(./slayer_movie/Slayer\ movie.ttf);
+}
+
+
+@keyframes hero-gradient-animation {
+    0% {
+        --y-0: 80%;
+        --x-0: 85%;
+        --s-start-0: 9%;
+        --s-end-0: 55%;
+        --c-0: hsla(35.47057207892912, 0%, 0%, 1);
+        --x-1: 60%;
+        --y-1: 24%;
+        --s-start-1: 5%;
+        --s-end-1: 72%;
+        --c-1: hsla(67.82608695652175, 0%, 0%, 1);
+        --s-start-2: 5%;
+        --s-end-2: 52%;
+        --c-2: hsla(53.999999999999886, 0%, 0%, 0.49);
+        --x-2: 13%;
+        --y-2: 82%;
+        --c-3: hsla(35.47057207892922, 100%, 14%, 1);
+        --s-start-3: 13%;
+        --s-end-3: 68%;
+        --x-3: 24%;
+        --y-3: 7%;
+    }
+
+    100% {
+        --y-0: 88%;
+        --x-0: 70%;
+        --s-start-0: 4;
+        --s-end-0: 66;
+        --c-0: hsla(40.77815444317986, 0%, 0%, 1);
+        --x-1: 94%;
+        --y-1: 37%;
+        --s-start-1: 4;
+        --s-end-1: 66;
+        --c-1: hsla(27.83505154639176, 0%, 29%, 1);
+        --s-start-2: 4;
+        --s-end-2: 66;
+        --c-2: hsla(53.999999999999886, 0%, 0%, 0.49);
+        --x-2: 94%;
+        --y-2: 3%;
+        --c-3: hsla(39.441160314223346, 100%, 14%, 1);
+        --s-start-3: 4;
+        --s-end-3: 66;
+        --x-3: 45%;
+        --y-3: 64%;
+    }
+}
+
+@property --y-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 80%
+}
+
+@property --x-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 85%
+}
+
+@property --s-start-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 9%
+}
+
+@property --s-end-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 55%
+}
+
+@property --c-0 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(35.47057207892912, 0%, 0%, 1)
+}
+
+@property --x-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 60%
+}
+
+@property --y-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 24%
+}
+
+@property --s-start-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 5%
+}
+
+@property --s-end-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 72%
+}
+
+@property --c-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(67.82608695652175, 0%, 0%, 1)
+}
+
+@property --s-start-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 5%
+}
+
+@property --s-end-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 52%
+}
+
+@property --c-2 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(53.999999999999886, 0%, 0%, 0.49)
+}
+
+@property --x-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 13%
+}
+
+@property --y-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 82%
+}
+
+@property --c-3 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(35.47057207892922, 100%, 14%, 1)
+}
+
+@property --s-start-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 13%
+}
+
+@property --s-end-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 68%
+}
+
+@property --x-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 24%
+}
+
+@property --y-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 7%
+}
+
+body{
+    --y-0: 80%;
+    --x-0: 85%;
+    --c-0: hsla(35.47057207892912, 0%, 0%, 1);
+    --x-1: 60%;
+    --y-1: 24%;
+    --c-1: hsla(67.82608695652175, 0%, 0%, 1);
+    --c-2: hsla(53.999999999999886, 0%, 0%, 0.49);
+    --x-2: 13%;
+    --y-2: 82%;
+    --c-3: hsla(35.47057207892922, 100%, 14%, 1);
+    --x-3: 24%;
+    --y-3: 7%;
+    ;
+    background-color: hsla(0, 0%, 0%, 1);
+    background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3));
+    animation: hero-gradient-animation 10s linear infinite alternate;
+    background-blend-mode: normal, normal, normal, normal;
+}
